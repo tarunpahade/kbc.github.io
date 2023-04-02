@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0%;
+    padding: 0%;
+   
+display: flex;
+justify-content: center;
+
+background-size: cover;
+
+background-blend-mode:lighten;
+}
+.background-img{
+    background-image: url(https://website-admin.geekyants.com/image-resize-cache/eyJpZCI6NTYxLCJ0IjoicmVzaXplIiwidyI6MTIwMCwiaCI6ODAwLCJxIjo5MCwidiI6MX0=.png);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;   
+    background-position: center;
+  width: 100%;
+    background-size: cover;
+position: absolute;
+z-index: -1;
+  }
+  
+
+.kbc{
+margin: auto;
+    color: white;
+}
+.question{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    margin: 3%;
+    font-size: 2em;
+    padding: 1.5em 1em;
+    border-radius: 200px;
+    border: 1px solid rgb(203, 206, 20);
+background-color: rgba(0, 0, 255, 0.397);
+}
+.options{
+    font-size: 1em;
+    padding: 10px;
+    border: 1px solid rgb(236, 240, 13);
+    width: 80%;
+    margin: 3% 6%;
+    color: rgba(255, 255, 255, 0.685);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 255, 0.397);
+    cursor: pointer;
+}
+.options:hover{
+    background-color: yellow;
+    color: black;
+    transition: ease 0.5s;
+}
+.two{
+    display: flex;
+}
+.no{
+    background-color: red;
+    color: white;
+}
+
+
+.lol{
+    width: 200px;
+    position: absolute;
+    bottom: 2em;
+    height: 130px;
+    right: 30%;
+    border: 2px solid yellow;
+
+}
+.lll{
+    margin: 30% 30%;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.788);
+}
